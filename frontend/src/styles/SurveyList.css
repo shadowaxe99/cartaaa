@@ -1,0 +1,92 @@
+.survey-list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.survey-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.survey-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.survey-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.survey-item:last-child {
+  border-bottom: none;
+}
+
+.survey-item-title {
+  font-size: 18px;
+  color: #333333;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.survey-item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.survey-item-button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0052cc;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.survey-item-button:hover {
+  background-color: #003d99;
+}
+
+.survey-item-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.no-surveys-message {
+  text-align: center;
+  color: #666666;
+  font-size: 16px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .survey-list-container {
+    margin: 10px;
+  }
+
+  .survey-list-title {
+    font-size: 20px;
+  }
+
+  .survey-item-title {
+    font-size: 16px;
+  }
+
+  .survey-item-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

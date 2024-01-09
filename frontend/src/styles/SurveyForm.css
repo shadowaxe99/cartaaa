@@ -1,0 +1,104 @@
+.survey-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.survey-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.survey-form-group {
+  margin-bottom: 15px;
+}
+
+.survey-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #666;
+}
+
+.survey-form-group input[type="text"],
+.survey-form-group input[type="email"],
+.survey-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.survey-form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.survey-form-group input[type="submit"] {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.survey-form-group input[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+.survey-question {
+  margin-bottom: 20px;
+}
+
+.survey-question-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.survey-question-options {
+  list-style: none;
+  padding: 0;
+}
+
+.survey-question-options li {
+  margin-bottom: 10px;
+}
+
+.survey-question-options label {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.survey-question-options input[type="radio"],
+.survey-question-options input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.survey-submit-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.survey-form-footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #999;
+}
